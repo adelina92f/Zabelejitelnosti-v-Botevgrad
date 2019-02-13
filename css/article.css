@@ -1,0 +1,155 @@
+main{
+    padding-bottom: 0;
+}
+.color-container{
+    margin-left: 0px;
+}
+.logo .slogan{
+    padding-bottom: 16px;
+}
+
+/*ARTICLE*/
+    article h1 {
+        padding-bottom: 0;
+        text-align: center;
+    }
+
+    article p {
+        padding-top: 0;
+
+    }
+
+    .title {
+        padding: 1px 0 15px 0;
+        background-image: url("../images/kula.png");
+        background-size: cover;
+        height: 50%;
+        text-align: center;
+    }
+
+    @media only screen and (min-width: 700px) {
+        .title {
+            padding: 20px 0 20px 20px;
+            height: 191px;
+            margin: 0 0 20px 0;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) {
+        .title {
+            height: 250px;
+        }
+    }
+
+    .hero-title p {
+        display: block;
+
+    }
+
+    .topic h1 {
+     text-align: center;
+
+    }
+
+    .color-container{
+        margin: auto;
+        padding: 0px 20px 20px 20px;
+        margin-top: 25px;
+    }
+    @media only screen and (min-width: 700px) {
+        .color-container{
+           margin-left: 0px;
+        }
+     }
+    @media only screen and (min-width: 700px) {
+        .color-container h1{
+            padding-left: 110px;
+        }
+     }
+
+    .topic p {
+        margin-top: 0px;
+        text-align: justify;
+        overflow: hidden;
+        padding: 0 5px;
+    }
+
+    .topic img {
+        width: 150px;
+        float: left;
+        padding-right: 10px;
+        margin-left: 20px;
+    }
+
+    @media only screen and (min-width: 700px) {
+        .topic img {
+            height: 200px; 
+        }
+    }
+    
+     .history p{
+         padding: 0 40px;
+     }
+
+    .article-gallery {
+        margin: 14px -10px;
+        text-align: center;
+        font-size: 0;
+        margin-right: 0;
+    }
+
+    .article-gallery figure {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 12px;
+        width: calc(23.33% - 20px);
+        margin: 10px;
+    }
+
+    .article-gallery figcaption {
+        background: #55415F;
+        color: #fff;
+        padding: 6px;
+        text-align: center;
+    }
+
+    .article-gallery img {
+        display: inline-block;
+        vertical-align: bottom;
+        width: 100%;
+    }
+
+    .article-gallery-float {
+        margin: 14px -10px;
+        overflow: hidden;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .article-gallery-float figure {
+        float: left;
+        width: calc(33.33% - 20px);
+        margin: 10px;
+    }
+
+    .article-gallery-float img {
+        display: inline-block;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    .article-gallery-float figcaption {
+        background: #55415F;
+        color: #fff;
+        padding: 6px;
+        text-align: center;
+    }
+
+    .article-gallery:last-of-type{
+       margin-bottom: 0px;
+    }
+    .gray-color {
+        background: #EBEBEB;
+    }
+
+    /*./article*/

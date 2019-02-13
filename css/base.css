@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+* {
+    margin: 0;
+}
+
+/*Dy*/
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    font-size: 10px;
+    line-height: 1.4;
+}
+@media only screen and (min-width: 1024px) {
+   body{
+       font-size: 16px;
+   }
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    text-shadow: 2px 3px 5px #888888;
+}
+
+a {
+    text-decoration: none;
+}
+
+ main{
+     padding-bottom: 20px;
+ }
+
+.content-wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.container{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+    .container{
+        width: 1024px;
+    }
+ }
+
+.header.top-nav.content-wrapper a,
+.page-footer.content-wrapper p span,
+.content-section.content-wrapper.color-container h1 p{
+    display: table-row;
+    height: 1px;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+}
+
+.header a,
+.page-footer p{
+    padding: 4px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .header a,
+    .page-footer p{
+        padding: 5px;
+    }
+ }
+
+@media only screen and (min-width: 1024px) {
+   .content-wrapper{
+     max-width:1024px;
+   }
+}
+.header{
+    position: relative;
+}
+
+.header-container{
+    overflow: hidden;
+}
+
+.header-container .content-wrapper > .logo{
+    float: left;
+}
+
+/*./Dy*/
+
+/*Header*/
+/*TOP NAVIGATION*/
+/*
+.header-container {
+    overflow: hidden;
+}
+*/
+.top-nav {
+    background: #55415F;
+    text-align: center;
+    text-shadow: 2px 2px 2px #888888;
+   
+}
+
+@media only screen and (min-width: 700px) {
+    .top-nav{
+       text-align: right;
+    }
+}
+
+.top-nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 700px) {
+    .top-nav a {
+        display: inline-block;
+        font-size: 16px;
+        margin: 5px;
+    }
+}
+.top-nav a:hover{
+    background-color: #000000;
+}
+.header-container .content-wrapper{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/*./TOP NAVIGATOR*/
+/*LOGO*/
+.logo {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.header .logo{
+    padding: 0;
+}
+
+.logo span {
+    display: block;
+}
+
+.logo img {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    vertical-align: bottom; 
+    text-align: center;
+}
+
+@media only screen and (min-width: 1024px) {
+    .logo img {
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+        vertical-align: bottom;
+    }
+ }
+
+.logo .slogan {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #888888;
+    padding-bottom: 16px;
+    padding: 5px 5px 5px 5px;
+    display:none;
+}
+
+@media only screen and (min-width: 700px) {
+.logo .slogan{
+   display: inline;
+   padding-bottom: 5px;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+    .logo .slogan {
+        color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #888888;
+    padding-bottom: 16px;
+    }
+ }
+
+/*./LOGO*/
+/*MAIN NAVIGATION*/
+
+/*./Header*/
+
+/*Content*/
+    .content-section{
+        padding: 0 40px;
+        text-align: justify;
+    }
+ 
+.content-section.hero-title {
+    margin-top: 0;
+}
+
+.content-title {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+/*./CONTENT*/
+
+/*Hero section*/
+.hero-title {
+    background: url("../images/panorama1.png");
+    background-size: cover;
+    padding: 3px 0 3px 0;
+    text-align: center;
+    margin: 20px auto;
+}
+
+@media only screen and (min-width: 700px) {
+    .hero-title {
+        padding: 30px 0 30px 0;
+    }
+ }
+
+.color-container {
+   margin: 20px auto;
+    padding: 20px 20px 20px 20px;
+    margin-top: 25px;
+    background-color: rgba(118, 68, 138, 0.4);
+    color: #FFFFFF;
+    width: 70%
+}
+
+@media only screen and (min-width: 700px) {
+    .color-container {
+        margin: auto;
+           width: 450px;
+       padding: 20px 20px 20px 20px;
+       }
+ }
+.color-container h1 {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
+.hero-title p {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 700px) {
+    .hero-title p {
+        display: inline-block;
+        width: 400px;
+        font-size: 16px;
+    }
+}
+
+/*./Hero section*/
+
+/*Article*/
+.topic h1 {
+    margin: 10px;
+}
+
+.topic p {
+    text-indent: 25px;
+    margin-top: 20px;
+
+}
+
+.topic p.first {
+    margin-top: 0;
+}
+
+.gray-topic {
+    padding: 20px 18px 20px;
+    background-color: rgba( 114, 43, 124 , 0.7);
+    color: #FFFFFF;
+}
+
+.gray-topic h1 {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px #888888;
+}
+
+.gray-topic h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.gray-topic p {
+    text-indent: 25px;
+}
+.last-section{
+    display: inline-block;
+    padding: 20px 20px 0 20px;
+
+}
+.first-article{
+    border-right: 8px;
+    box-shadow: 0 4px 5px 0 rgba(136,136,136,1);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.last-article{
+    border-right: 8px;
+    box-shadow: 0 4px 5px 0px rgba(136,136,136,1);
+    padding: 10px;
+}
+@media only screen and (min-width: 700px) {
+    .last-section{
+        display: inline-block;
+    
+    }
+    .first-article{
+        float: left;
+        width: 46%;
+        border-right: 8px;
+        box-shadow: 10px 10px 5px -5px rgba(136,136,136,1);
+    }
+    .last-article{
+        float: right;
+        width: 45%;
+        border-right: 8px;
+        box-shadow: 10px 10px 5px -5px rgba(136,136,136,1);
+    }
+ }
+/*./ARTICLE*/
+
+/*FOOTER*/
+.page-footer {
+    background: #55415F;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 5px 0 5px;
+}
+
+/*./footer*/
