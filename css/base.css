@@ -416,39 +416,33 @@ a {
 .gray-topic p {
     text-indent: 25px;
 }
-
 .last-section{
     display: inline-block;
     padding: 20px 20px 0 20px;
 
 }
-
 .first-article{
     border-right: 8px;
     box-shadow: 0 4px 5px 0 rgba(136,136,136,1);
     margin-bottom: 20px;
     padding: 10px;
 }
-
 .last-article{
     border-right: 8px;
     box-shadow: 0 4px 5px 0px rgba(136,136,136,1);
     padding: 10px;
 }
-
 @media only screen and (min-width: 700px) {
     .last-section{
         display: inline-block;
     
     }
-
     .first-article{
         float: left;
         width: 46%;
         border-right: 8px;
         box-shadow: 10px 10px 5px -5px rgba(136,136,136,1);
     }
-
     .last-article{
         float: right;
         width: 45%;
@@ -456,7 +450,6 @@ a {
         box-shadow: 10px 10px 5px -5px rgba(136,136,136,1);
     }
  }
- 
 /*./ARTICLE*/
 
 /*FOOTER*/
