@@ -1,4 +1,4 @@
-$(function(){
+$(function(){is-active
     let $nav = $('.main-nav');
     let $button = $('.hamburger');
 
