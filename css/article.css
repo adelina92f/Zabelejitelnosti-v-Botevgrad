@@ -56,11 +56,13 @@ main{
         padding: 0px 20px 20px 20px;
         margin-top: 25px;
     }
+
     @media only screen and (min-width: 700px) {
         .color-container{
            margin-left: 0px;
         }
      }
+     
     @media only screen and (min-width: 700px) {
         .color-container h1{
             padding-left: 110px;
