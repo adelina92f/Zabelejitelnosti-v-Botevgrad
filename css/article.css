@@ -59,7 +59,9 @@ main{
 
     @media only screen and (min-width: 700px) {
         .color-container{
-           margin-left: 0px;
+          margin: auto;
+          padding-bottom: 0px;
+          margin-bottom: 10px;
         }
      }
      

@@ -51,26 +51,49 @@
     <!--my-content-->
     <main>
         <!--content-->
-        <section class="content-section topic title">
-            <div class="content-wrapper ">
-                <div class="color-container">
+        <section class="hero-title content-section">
+            <!-- <div class="content-wrapper">-->
+                 <div id="myFirstSlider" class="slider">
+             <div class="slider__holder">
+                 <div class="slider__item">
+                     <img src="images/panorama1.png" alt="">
+                 </div>
+                 <div class="slider__item"> 
+                     <img src="images/kula.png" alt="">
+                 </div>
+                 <div class="slider__item">
+                     <img src="images/arenabtg.jpg" alt="">
+                 </div>
+                 <div class="slider__item">
+                     <img src="images/1024px-Botevgrad-history-museum.jpg" alt="">
+                 </div>
+             </div>
+             <div class="slider__actions">
+                 <button class="slider__control control" data-image="prev">&lt;</button>
+                 <button class="slider__control control" data-image="next">&gt;</button>
+             </div>
+             
+                 <div class="color-container">
                     <article>
                         <!--main-title-->
                         <h1>
-                            Часовникова кула
+                        Часовникова кула
                         </h1>
                         <!--./main-title-->
                         <p>
-                            В централната част на града се простира Часовниковата кула. Тя е висока 30 метра и е построена от
-                            Вуно Марков през 1866 година.улата е построена като част от мащабно строителство през 1866 г. по повод обявяването
-                            на село Самунджиево за град и околийски център по предложение на Мидхад паша от врачежанския
-                            майстор Вуно Марков.
+                        В централната част на града се простира Часовниковата кула. Тя е висока 30 метра и е построена от
+                        Вуно Марков през 1866 година.улата е построена като част от мащабно строителство през 1866 г. по повод обявяването
+                        на село Самунджиево за град и околийски център по предложение на Мидхад паша от врачежанския
+                        майстор Вуно Марков.
                         </p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
+                        </article>
+                    </div>
+                <div class="slider__paging">
+                     
+               </div>  
+              <!-- </div>-->
+             
+     </section>
         <!--./content-->
         <!--content-->
 
@@ -227,5 +250,6 @@
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
               crossorigin="anonymous"></script>
               <script src="./js/main.js"></script>
+              <script src="./js/slider.js"></script>
 </body>
 </html>
