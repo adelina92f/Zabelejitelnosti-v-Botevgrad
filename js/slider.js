@@ -151,7 +151,6 @@ let adiSlider = {
 
         $prev.addClass('prev');
         $next.addClass('next');
-
         this.settings.$current.addClass('current');
         this.setCurrentPoint(current_index)
         return this.settings.$current;
@@ -186,7 +185,6 @@ let adiSlider = {
     reset: function () {
         this.settings.$pagingPoints.removeClass('active');
         this.settings.$items.removeClass('prev current next');
-
     },
 
     // Проверява дали съществува даденият елемент.
