@@ -74,7 +74,7 @@ main{
     .topic p {
         margin-top: 0px;
         text-align: justify;
-        overflow: hidden;
+        /*overflow: hidden;*/
         padding: 0 5px;
     }
 

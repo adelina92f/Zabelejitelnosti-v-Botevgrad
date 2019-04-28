@@ -124,6 +124,7 @@ let adiSlider = {
         if (!this.isExist($next)) {
             $next = this.settings.$items.first();
         }
+        $('.slider__holder').find('.next').addClass('itemNext')
         return this.setCurrent($next);
     },
 
@@ -178,6 +179,7 @@ let adiSlider = {
         if (!this.isExist($next)) {
             $next = this.settings.$items.first();
         }
+        $('.slider__item').addClass('itemNext');
         return $next;
     },
 
@@ -185,6 +187,8 @@ let adiSlider = {
     reset: function () {
         this.settings.$pagingPoints.removeClass('active');
         this.settings.$items.removeClass('prev current next');
+        $('.slider__holder').find('.next').removeClass('itemNext');
+
     },
 
     // Проверява дали съществува даденият елемент.
@@ -205,6 +209,7 @@ let adiSlider = {
 
     // Рестартира плейлиста.
     resetAutoPlay: function () {
+        $('.slider__item').find('.next').addClass('itemNext');
         clearInterval(this.settings.features.autoPlay.fn);
         this.startAutoPlay();
     },

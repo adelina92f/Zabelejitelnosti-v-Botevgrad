@@ -33,6 +33,7 @@ a {
 
  main{
      padding-bottom: 20px;
+     width: 100%;
  }
 
 .content-wrapper {
@@ -49,7 +50,8 @@ a {
 
 @media only screen and (min-width: 1024px) {
     .container{
-        width: 1024px;
+        /*width: 1024px;*/
+        width: 100%;
     }
  }
 
@@ -86,10 +88,12 @@ a {
 
 .header{
     position: relative;
+    width: 100%;
 }
 
 .header-container{
     overflow: hidden;
+    width: 100%;
 }
 
 .header-container .content-wrapper > .logo{
@@ -109,6 +113,7 @@ a {
     background: #55415F;
     text-align: center;
     text-shadow: 2px 2px 2px #888888;
+    width: 100%;
    
 }
 
@@ -207,13 +212,14 @@ a {
 
 /*Content*/
     .content-section{
+        max-width: 100%;
         padding: 0 40px;
         text-align: justify;
     }
  
     .slider__holder {
        /* position: relative;*/
-        min-width: 100%;
+        width: 100%;
         overflow: hidden;
       
     }
@@ -261,13 +267,17 @@ a {
       
         .slider__item.next {
           left: 100%;
-          width: 0%;
+          width: 0px;
         }
+
+        /*.slider__item.next.itemNext{
+            width: 0%;
+        }*/
 
         .slider__item img {
           height: 100%;
-          width: 100%;      
-          object-fit: cover;
+          width: 100%;   
+         /*object-fit: cover;*/
         }
       
       .slider__actions {
@@ -335,6 +345,7 @@ a {
 
 .content-section.hero-title {
     margin-top: 0;
+    width: 100%;
 }
 
 .content-title {
