@@ -1,79 +1,78 @@
 main{
     padding-bottom: 0;
 }
+
 .color-container{
     margin-left: 0px;
 }
+
 .logo .slogan{
     padding-bottom: 16px;
 }
 
 /*ARTICLE*/
-    article h1 {
-        padding-bottom: 0;
-        text-align: center;
-    }
+article h1 {
+    padding-bottom: 0;
+    text-align: center;
+}
 
-    article p {
-        padding-top: 0;
+article p {
+    padding-top: 0;
+}
 
-    }
+.title {
+    padding: 1px 0 15px 0;
+    background-image: url("../images/kula.png");
+    background-size: cover;
+    height: 50%;
+    text-align: center;
+}
 
+@media only screen and (min-width: 700px) {
     .title {
-        padding: 1px 0 15px 0;
-        background-image: url("../images/kula.png");
-        background-size: cover;
-        height: 50%;
-        text-align: center;
+        padding: 20px 0 20px 20px;
+        height: 191px;
+        margin: 0 0 20px 0;
     }
+}
 
-    @media only screen and (min-width: 700px) {
-        .title {
-            padding: 20px 0 20px 20px;
-            height: 191px;
-            margin: 0 0 20px 0;
-        }
+@media only screen and (min-width: 1024px) {
+    .title {
+        height: 250px;
     }
+}
 
-    @media only screen and (min-width: 1024px) {
-        .title {
-            height: 250px;
-        }
-    }
+.hero-title p {
+    display: block;
+    width: 80%;
+    margin-left: 40px;
+}
 
-    .hero-title p {
-        display: block;
-        width: 80%;
-        margin-left: 40px;
+.topic h1 {
+    text-align: center;
+}
 
-    }
+.color-container{
+    margin: auto;
+    padding: 0px 20px 20px 20px;
+    margin-top: 10px;
+}
 
-    .topic h1 {
-     text-align: center;
-
-    }
-
+@media only screen and (min-width: 700px) {
     .color-container{
-        margin: auto;
-        padding: 0px 20px 20px 20px;
-        margin-top: 10px;
-    }
-
-    @media only screen and (min-width: 700px) {
-        .color-container{
-         padding: 20px 20px;
-            margin-left: 15%;
-          padding-bottom: 0px;
-          margin-top: 15px;
-          margin-bottom: 10px;
+        padding: 20px 20px;
+        margin-left: 15%;
+        padding-bottom: 0px;
+        margin-top: 15px;
+        margin-bottom: 10px;
         
-        }
-     }
-     @media only screen and (min-width: 700px) {
-        .color-container h1{
-         font-size: 22px;
-        }
-     }
+    }
+}
+@media only screen and (min-width: 700px) {
+    .color-container h1{
+        font-size: 22px;
+    }
+}
      
     
    
