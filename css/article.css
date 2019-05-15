@@ -43,6 +43,8 @@ main{
 
     .hero-title p {
         display: block;
+        width: 80%;
+        margin-left: 40px;
 
     }
 
@@ -54,28 +56,32 @@ main{
     .color-container{
         margin: auto;
         padding: 0px 20px 20px 20px;
-        margin-top: 25px;
+        margin-top: 10px;
     }
 
     @media only screen and (min-width: 700px) {
         .color-container{
-          margin: auto;
+         padding: 20px 20px;
+            margin-left: 15%;
           padding-bottom: 0px;
+          margin-top: 15px;
           margin-bottom: 10px;
+        
+        }
+     }
+     @media only screen and (min-width: 700px) {
+        .color-container h1{
+         font-size: 22px;
         }
      }
      
-    @media only screen and (min-width: 700px) {
-        .color-container h1{
-            padding-left: 110px;
-        }
-     }
-
+    
+   
     .topic p {
         margin-top: 0px;
         text-align: justify;
         /*overflow: hidden;*/
-        padding: 0 5px;
+        padding-bottom: 20px;
     }
 
     .topic img {

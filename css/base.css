@@ -218,11 +218,19 @@ a {
     }
  
     .slider__holder {
-       /* position: relative;*/
+        position: relative;
         width: 100%;
         overflow: hidden;
+        height: 200px;
       
     }
+
+    @media only screen and (min-width: 700px) {
+        .slider__holder {
+            height: 250px;
+          
+        }
+        }
 
     .slider {
         width: 100%;
@@ -267,7 +275,6 @@ a {
       
         .slider__item.next {
           left: 100%;
-          width: 0px;
         }
 
         /*.slider__item.next.itemNext{
@@ -317,8 +324,9 @@ a {
       }
       
       .slider__paging{
-        position: relative;
-        top: -3px;
+        position: absolute;
+        top: 95%;
+        left: 47%;
         display: flex;
         justify-content:center; 
       }
@@ -364,17 +372,14 @@ a {
     margin: 20px auto;
 }
 
-@media only screen and (min-width: 700px) {
-    .hero-title {
-        padding: 30px 0 30px 0;
-    }
- }
 
 .color-container {
-    position: relative;
+    position: absolute;
+    top: 5%;
+    left: 10%;
    margin: 20px auto;
     padding: 20px 20px 20px 20px;
-    margin-top: 25px;
+    margin-top: 10px;
     background-color: rgba(118, 68, 138, 0.4);
     color: #FFFFFF;
     width: 70% 
@@ -382,11 +387,19 @@ a {
 
 @media only screen and (min-width: 700px) {
     .color-container {
-        margin: auto;
-           width: 450px;
+        margin-left: 15%;
+        width: 47%;
        padding: 20px 20px 20px 20px;
        }
  }
+
+ @media only screen and (min-width: 700px) {
+    .color-container p{
+       padding-bottom: 20px;
+       width: 100%;
+       }
+ }
+
 .color-container h1 {
     display: inline-block;
     vertical-align: top;
@@ -397,13 +410,13 @@ a {
     display: inline-block;
     text-align: center;
     width: 100%;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 @media only screen and (min-width: 700px) {
     .hero-title p {
         display: inline-block;
-        width: 400px;
+        width: 100%;
         font-size: 16px;
     }
 }
